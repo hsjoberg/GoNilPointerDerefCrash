@@ -1,0 +1,8 @@
+framework module "Gopointerderefcrash" {
+	header "ref.h"
+    header "Gopointerderefcrash.objc.h"
+    header "Universe.objc.h"
+    header "Gopointerderefcrash.h"
+
+    export *
+}

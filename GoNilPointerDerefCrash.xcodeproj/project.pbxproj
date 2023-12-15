@@ -11,6 +11,7 @@
 		CCD7225B2B2CD07500399173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD7225A2B2CD07500399173 /* ViewController.swift */; };
 		CCD7225D2B2CD07600399173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD7225C2B2CD07600399173 /* Assets.xcassets */; };
 		CCD722602B2CD07600399173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD7225E2B2CD07600399173 /* Main.storyboard */; };
+		CCD722682B2CD28000399173 /* Gopointerderefcrash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD722672B2CD28000399173 /* Gopointerderefcrash.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CCD7225C2B2CD07600399173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCD7225F2B2CD07600399173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCD722612B2CD07600399173 /* GoNilPointerDerefCrash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoNilPointerDerefCrash.entitlements; sourceTree = "<group>"; };
+		CCD722672B2CD28000399173 /* Gopointerderefcrash.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Gopointerderefcrash.xcframework; path = GoCode/Gopointerderefcrash.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD722682B2CD28000399173 /* Gopointerderefcrash.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +55,7 @@
 		CCD722572B2CD07500399173 /* GoNilPointerDerefCrash */ = {
 			isa = PBXGroup;
 			children = (
+				CCD722672B2CD28000399173 /* Gopointerderefcrash.xcframework */,
 				CCD722582B2CD07500399173 /* AppDelegate.swift */,
 				CCD7225A2B2CD07500399173 /* ViewController.swift */,
 				CCD7225C2B2CD07600399173 /* Assets.xcassets */,
